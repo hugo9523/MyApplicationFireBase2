@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "350694486166",
+    "firebase_url": "https://schoolprojectuanl2.firebaseio.com",
+    "project_id": "schoolprojectuanl2",
+    "storage_bucket": "schoolprojectuanl2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350694486166:android:c619db0470540f82c952b7",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350694486166-ino874jgv2631gemac95c1shil5v1qq1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplicationfirebase",
+            "certificate_hash": "75110d986a453855cba76160d297b05d27b33c59"
+          }
+        },
+        {
+          "client_id": "350694486166-gqd7nlk92ndunqakmhrouiire4e0va4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARhWi_JfigzuLCIIT33ica5kk6sCdVTUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350694486166-gqd7nlk92ndunqakmhrouiire4e0va4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_cotizacion"
+    android:background="@drawable/font2">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="274dp"
+        android:layout_height="110dp"
+        android:text="Cotización"
+        android:textColor="#e0f2f1"
+        android:textSize="50dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="275dp"
+        android:layout_height="52dp"
+        android:text="Detalles del Trabajo"
+        android:textColor="#e0f2f1"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="223dp" />
+
+    <TextView
+        android:id="@+id/tv_detalle"
+        android:layout_width="305dp"
+        android:layout_height="103dp"
+        android:text=""
+        android:textColor="#e0f2f1"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="273dp"
+        android:layout_height="47dp"
+        android:text="Tipo de material:"
+        android:textColor="#e0f2f1"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <RadioGroup
+        android:layout_width="288dp"
+        android:layout_height="174dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="515dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/rb_ecomomico"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="Económico"
+            android:textColor="#ffffff"
+            android:textSize="30dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_medio"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:text="Medio"
+            android:textColor="#ffffff"
+            android:textSize="30dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_premium"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:text="Premium"
+            android:textColor="#ffffff"
+            android:textSize="30dp"/>
+    </RadioGroup>
+</androidx.constraintlayout.widget.ConstraintLayout>
